@@ -1,5 +1,3 @@
-print('O número das contas abaixo usado foi 10 e 5.'
-      '\n')
 a = 10
 b = 5
 soma = a + b
