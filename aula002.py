@@ -1,4 +1,5 @@
-
+print('O número das contas abaixo usado foi 10 e 5.'
+      '\n')
 a = 10
 b = 5
 soma = a + b
@@ -6,7 +7,8 @@ subtracao = a - b
 multiplicacao = a * b
 divisao = a / b
 resto = a % b
-print('soma: {soma}. \nSubtração: {sub}.'
+print('soma: {soma}.'
+      '\nSubtração: {sub}.'
       '\nMultiplicação: {multiplicacao}.'
       '\nDivisão: {divisao}.'
       '\nResto da divisao: {resto}.'
