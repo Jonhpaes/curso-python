@@ -5,7 +5,8 @@ subtracao = a - b
 multiplicacao = a * b
 divisao = a / b
 resto = a % b
-print('soma: {soma}.'
+resultado = (
+      'soma: {soma}.'
       '\nSubtração: {sub}.'
       '\nMultiplicação: {multiplicacao}.'
       '\nDivisão: {divisao}.'
@@ -15,3 +16,4 @@ print('soma: {soma}.'
               multiplicacao=multiplicacao,
               divisao=divisao,
               resto=resto))
+print(resultado)
