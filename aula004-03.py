@@ -22,9 +22,9 @@ print('media: {}'.format(media))
 
 
 
-nota = int(input('Entre com uma nota: '))
-while nota > 10:
-    nota = int(input('Nota inválida.Entre com a nota correta: '))
+# nota = int(input('Entre com uma nota: '))
+# while nota > 10:
+#     nota = int(input('Nota inválida.Entre com a nota correta: '))
 # a = 0
 # while a <= 10:
 #     print(a)
