@@ -1,21 +1,21 @@
 # Usando WHILE para forçar o usuário a digitar correto no campo exigido.
 
 
-a = int(input('Primeiro bimestre: '))
+a = float(input('Primeiro bimestre: '))
 while a > 10:
-    a = int(input('Você digitou errado!'
+    a = float(input('Você digitou errado!'
                   '\nDigite novamente, primeiro bimestre: '))
-b = int(input('Segundo bimestre'))
+b = float(input('Segundo bimestre'))
 while b > 10:
-    b = int(input('Você digitou errado!'
+    b = float(input('Você digitou errado!'
                   '\nDigite novamente, segundo bimestre: '))
-c = int(input('Terceiro bimestre: '))
+c = float(input('Terceiro bimestre: '))
 while c > 10:
-    c = int(input('Você digitou errado!'
+    c = float(input('Você digitou errado!'
                   '\nDigite novamente, terceiro bimestre: '))
-d = int(input('Quarto bimestre: '))
+d = float(input('Quarto bimestre: '))
 while d > 10:
-    d = int(input('Você digitou errado!'
+    d = float(input('Você digitou errado!'
                   '\nDigite novamente, quarto bimestre: '))
 media = (a + b + c + d) / 4
 print('media: {}'.format(media))
@@ -29,3 +29,7 @@ print('media: {}'.format(media))
 # while a <= 10:
 #     print(a)
 #     a += 1
+
+
+# usamos " Float " para podermos usar qualquer número, ou seja número com virgula ou número real
+# usamos " Int " para podermos usar apenas números inteiros
